@@ -29,7 +29,8 @@ export const sendMail = (req, res) => {
         service: 'gmail',
         auth: {
             user: 'rentapartments1234@gmail.com',
-            pass: 'AIzaSyD8ZBsa1hD6e4mz-D02FlKjIzESp5J7i1w'
+            // כאן צריך להיות קוד
+            pass: '...'
         }
     });
     let mailOptions = {
